@@ -1,3 +1,4 @@
 <launch>
+	<param name="dynamixel_positions/path" type="string" value="$(find dynamixel_positions)/configs/positions.yaml" />
   <node name="dynamixel_positions" pkg="dynamixel_positions" type="position_controller.py" output="screen"/>
  </launch>
