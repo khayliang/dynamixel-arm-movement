@@ -1,0 +1,3 @@
+<launch>
+  <node name="dynamixel_positions" pkg="dynamixel_positions" type="position_controller.py" output="screen"/>
+ </launch>
